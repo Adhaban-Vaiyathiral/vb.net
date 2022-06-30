@@ -14,7 +14,8 @@
         w = Val(TextBox1.Text)
         h = Val(TextBox2.Text)
         TextBox3.Text = w / (h * h)
-
+'w - weight in kg
+'h - height in metre
         If (TextBox3.Text < 18.5) Then
             MsgBox("UNDER WEIGHT")
         ElseIf (TextBox3.Text > 18.5) And (TextBox3.Text < 24.9) Then
